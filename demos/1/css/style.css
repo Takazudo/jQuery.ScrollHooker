@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.hoge .foo {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px; }

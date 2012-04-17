@@ -1,0 +1,12 @@
+@import "bourbon/bourbon";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.hoge {
+	.foo {
+		@include border-radius(12px);
+	}
+}

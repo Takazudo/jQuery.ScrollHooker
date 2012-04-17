@@ -1,0 +1,19 @@
+{
+  "name": "jQuery.ScrollHooker",
+  "description": "help to implement what people call parallax",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Takazudo/jQuery.ScrollHooker",
+  "author": {
+    "name": "\"Takazudo\" Takeshi Takatsudo",
+    "url": "http://takazudo.github.com/blog/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Takazudo/jQuery.LazyJaxDavis.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
