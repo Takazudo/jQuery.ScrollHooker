@@ -42,18 +42,27 @@ module.exports = function(grunt){
         dest: 'demos/1/css/style.css'
       }
     },
+    uglify: {
+      lajax: {
+        src: '<config:coffee.lib.dest>',
+        dest: 'jquery.scrollhooker.min.js'
+      }
+    },
     watch: {
       lib: {
         files: [ '<config:coffee.lib.files>' ],
-        tasks: 'coffee:lib concat'
+        tasks: 'coffee:lib concat ok'
       },
       test: {
         files: [ '<config:coffee.test.files>' ],
-        tasks: 'coffee:test'
+        tasks: 'coffee:test ok'
       },
       demo: {
-        files: [ '<config:bourbon.demo' ],
-        tasks: 'bourbon:demo coffee:demo'
+        files: [
+          '<config:bourbon.demo.src>',
+          '<config:coffee.demo.files>'
+        ],
+        tasks: 'bourbon:demo coffee:demo ok'
       }
     }
   });

@@ -190,6 +190,7 @@
       __extends(Manager, _super);
 
       function Manager() {
+        if (!(this instanceof arguments.callee)) return new ns.Manager;
         Manager.__super__.constructor.apply(this, arguments);
         this._items = [];
         this._eventify();

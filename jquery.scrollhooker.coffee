@@ -121,7 +121,7 @@
     _isBelow: (st) -> st > @options.st_end
 
     update: (scrollTop) ->
-
+      
       # it's useless to handle hidden element's style
       if @$el.is(':hidden') then return @
 
@@ -170,6 +170,11 @@
 
   class ns.Manager extends ns.Event
     constructor: ->
+
+      # handle without new call
+      if not (@ instanceof arguments.callee)
+        return new ns.Manager
+
       super
       @_items = []
       @_eventify()
@@ -195,6 +200,7 @@
       item
 
     hook: ($el, propHandlers) ->
+
       unless $el.size() then return @
       $.each propHandlers, (prop, propHandler) =>
         item = @_createItem $el, prop, propHandler

@@ -2,9 +2,218 @@
   margin: 0;
   padding: 0; }
 
-.hoge .foo {
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-  border-radius: 12px; }
+a {
+  color: #fff; }
+
+html {
+  background: #99822C; }
+
+.mod-header {
+  font-size: 30px;
+  line-height: 40px; }
+  .mod-header div {
+    padding: 30px;
+    zoom: 1; }
+    .mod-header div:before, .mod-header div:after {
+      content: "";
+      display: table; }
+    .mod-header div:after {
+      clear: both; }
+    .mod-header div h1 {
+      color: #C3B265;
+      float: left;
+      font-size: 1em; }
+    .mod-header div ul {
+      float: left;
+      list-style-type: none;
+      padding: 0 0 0 10px;
+      opacity: .8; }
+      .mod-header div ul li {
+        float: left;
+        paddinG: 0 0 0 20px; }
+        .mod-header div ul li a {
+          float: left; }
+
+.mod-page {
+  height: 2000px;
+  overflow: hidden;
+  position: relative; }
+  .mod-page .mod-page-bg {
+    width: 100%;
+    height: 5000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2; }
+  .mod-page .mod-page-bgobjs1 {
+    position: absolute;
+    width: 100%;
+    height: 3000px;
+    z-index: 3;
+    left: 0;
+    top: 0; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj {
+      position: absolute;
+      background: #fff;
+      opacity: .2; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj1 {
+      width: 500px;
+      height: 500px;
+      -webkit-border-radius: 250px;
+      -moz-border-radius: 250px;
+      -ms-border-radius: 250px;
+      -o-border-radius: 250px;
+      border-radius: 250px;
+      left: 800px;
+      top: 230px; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj2 {
+      width: 300px;
+      height: 300px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      -ms-border-radius: 150px;
+      -o-border-radius: 150px;
+      border-radius: 150px;
+      left: 120px;
+      top: 1000px; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj3 {
+      width: 400px;
+      height: 400px;
+      -webkit-border-radius: 200px;
+      -moz-border-radius: 200px;
+      -ms-border-radius: 200px;
+      -o-border-radius: 200px;
+      border-radius: 200px;
+      left: 800px;
+      top: 1450px; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj4 {
+      width: 300px;
+      height: 300px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      -ms-border-radius: 150px;
+      -o-border-radius: 150px;
+      border-radius: 150px;
+      left: -50px;
+      top: 2200px; }
+    .mod-page .mod-page-bgobjs1 .mod-page-bgobjs1-obj5 {
+      width: 800px;
+      height: 800px;
+      -webkit-border-radius: 400px;
+      -moz-border-radius: 400px;
+      -ms-border-radius: 400px;
+      -o-border-radius: 400px;
+      border-radius: 400px;
+      left: 700px;
+      top: 2000px; }
+  .mod-page .mod-page-bgobjs2 {
+    position: absolute;
+    width: 100%;
+    height: 3000px;
+    z-index: 3;
+    left: 0;
+    top: 0; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj {
+      position: absolute;
+      background: #a00;
+      opacity: .5; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj1 {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      border-radius: 15px;
+      left: 970px;
+      top: 260px; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj2 {
+      width: 100px;
+      height: 100px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      border-radius: 50px;
+      left: 80px;
+      top: 850px; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj3 {
+      width: 200px;
+      height: 200px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+      border-radius: 100px;
+      left: 1020px;
+      top: 1300px; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj4 {
+      width: 300px;
+      height: 300px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      -ms-border-radius: 150px;
+      -o-border-radius: 150px;
+      border-radius: 150px;
+      left: -50px;
+      top: 2000px; }
+    .mod-page .mod-page-bgobjs2 .mod-page-bgobjs2-obj5 {
+      width: 800px;
+      height: 800px;
+      -webkit-border-radius: 400px;
+      -moz-border-radius: 400px;
+      -ms-border-radius: 400px;
+      -o-border-radius: 400px;
+      border-radius: 400px;
+      left: 700px;
+      top: 2400px; }
+  .mod-page .mod-page-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10; }
+    .mod-page .mod-page-inner .mod-page-unit {
+      position: absolute; }
+      .mod-page .mod-page-inner .mod-page-unit h2 {
+        padding: 0 0 10px; }
+        .mod-page .mod-page-inner .mod-page-unit h2 a {
+          color: #333; }
+      .mod-page .mod-page-inner .mod-page-unit p {
+        padding: 0 0 15px; }
+      .mod-page .mod-page-inner .mod-page-unit img {
+        position: absolute; }
+    .mod-page .mod-page-inner .mod-page-unit1 {
+      left: 100px;
+      top: 100px;
+      width: 500px; }
+      .mod-page .mod-page-inner .mod-page-unit1 img {
+        left: 530px;
+        top: 40px; }
+    .mod-page .mod-page-inner .mod-page-unit2 {
+      left: 630px;
+      top: 650px;
+      width: 500px; }
+      .mod-page .mod-page-inner .mod-page-unit2 img {
+        left: -380px;
+        top: 100px; }
+    .mod-page .mod-page-inner .mod-page-unit3 {
+      left: 100px;
+      top: 1200px;
+      width: 500px; }
+      .mod-page .mod-page-inner .mod-page-unit3 img {
+        left: 530px;
+        top: 80px; }
+  .mod-page#page1 .mod-page-bg {
+    background: url(../img/1.png); }
+  .mod-page#page2 .mod-page-bg {
+    background: url(../img/2.png); }
+  .mod-page#page3 .mod-page-bg {
+    background: url(../img/3.png); }
+  .mod-page#page4 .mod-page-bg {
+    background: url(../img/4.png); }
+
+.mod-footer {
+  text-align: left;
+  padding: 30px;
+  line-height: 30px;
+  color: #fff; }
